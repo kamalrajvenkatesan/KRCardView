@@ -29,6 +29,7 @@ KRCardView is a view that allows to make a CardView / Bottom View on any UIViewC
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
+  s.swift_version = '4.0'
 
   s.source_files = 'KRCardView/Classes/**/*'
   
@@ -37,6 +38,6 @@ KRCardView is a view that allows to make a CardView / Bottom View on any UIViewC
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
