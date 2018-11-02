@@ -25,7 +25,7 @@ KRCardView is a view that allows to make a CardView / Bottom View on any UIViewC
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'kamalraj venkatesan' => 'kamalrajv3@gmail.com' }
-  s.source           = { :git => 'https://github.com/kamalraj.venkatesan/KRCardView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/kamalrajvenkatesan/KRCardView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
