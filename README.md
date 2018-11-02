@@ -10,6 +10,7 @@
 
 Card View will be added in bottom of ViewController. User can Tap and Pan to expand and collapse the card view.
 
+## Preview
 ![](KRCardView.gif)
 
 ## Example
