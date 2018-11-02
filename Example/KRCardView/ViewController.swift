@@ -17,20 +17,14 @@ class ViewController: UIViewController, KRCardView {
     return (self.view.bounds.height - 100)
   }
 
+  override func viewDidLoad() {
+    super.viewDidLoad()
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    cardViewController = self.storyboard?.instantiateViewController(withIdentifier: "BottomViewController") as! BottomViewController
 
-      cardViewController = self.storyboard?.instantiateViewController(withIdentifier: "BottomViewController") as! BottomViewController
+    self.addKRCardView() // This method will render card view in this view controller.
 
-      self.addKRCardView() // This method will render card view in this view controller.
-
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
+  }
+  
 }
 

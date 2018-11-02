@@ -12,9 +12,24 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## How to Integrate into your project
-1. Create a subclass of CardViewController
+## Step by Step instructions
+
+1. Create a subclass of CardViewController (Refer below image)
 ![](KRCardView-1.png)
+
+2. Go to storyboard and create a add a new UIViewController and now add class name (BottomViewController) in Identity Inspector.
+3. In same viewcontroller add a view on top of root view and connect it to handleView Outlet (Refer Below Image)
+![](KRCardView-2.png)
+
+4. Now go to main view controller where you need card view in bottom.
+5. Import KRCardView
+6. Add KRCardView protocol to main view controller
+7. Now initialize cardHandleAreaHeight and cardHeight variables (Refer below image).
+6. Assign bottom view controller to cardViewController variable (Refer below image).
+7. Finally call addKRCardViewMethod in ViewDidLoad (Refer below image).
+![](KRCardView-3.png)
+
+8. That's it.
 
 ## Requirements
 

@@ -103,7 +103,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="handleArea" destination="NNw-Rd-aDM" id="4HV-Ic-qK0"/>
+                        <outlet property="handleArea" destination="NNw-Rd-aDM" id="xtz-AD-05T"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="poo-6k-8He" userLabel="First Responder" sceneMemberID="firstResponder"/>
