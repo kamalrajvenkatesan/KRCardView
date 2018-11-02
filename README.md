@@ -12,6 +12,10 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+## How to Integrate into your project
+1. Create a subclass of CardViewController
+![](KRCardView-1.png)
+
 ## Requirements
 
 ## Installation
