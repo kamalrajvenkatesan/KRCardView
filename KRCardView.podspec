@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'KRCardView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of KRCardView.'
+  s.summary          = 'Card view on bottom of view controller that can be access to view the content on card view'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+KRCardView is a view that allows to make a CardView / Bottom View on any UIViewController, The card view will lay on bottom of the screen, which can expand so user can access the content in card view
                        DESC
 
-  s.homepage         = 'https://github.com/kamalraj.venkatesan/KRCardView'
+  s.homepage         = 'https://github.com/kamalrajvenkatesan/KRCardView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'kamalraj.venkatesan' => 'kamalraj.venkatesan@gyanmatrix.com' }
+  s.author           = { 'kamalraj venkatesan' => 'kamalrajv3@gmail.com' }
   s.source           = { :git => 'https://github.com/kamalraj.venkatesan/KRCardView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'KRCardView/Classes/**/*'
   

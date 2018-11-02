@@ -30,8 +30,8 @@
 /* Begin PBXFileReference section */
 		2397FD930254CF1590D9D8DB /* Pods-KRCardView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KRCardView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KRCardView_Tests/Pods-KRCardView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		477239E7422182C084221212 /* Pods_KRCardView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KRCardView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		499CB605DB2EA882C81E37C5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		5AC2063B5D8B159F50BDC358 /* KRCardView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KRCardView.podspec; path = ../KRCardView.podspec; sourceTree = "<group>"; };
+		499CB605DB2EA882C81E37C5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5AC2063B5D8B159F50BDC358 /* KRCardView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KRCardView.podspec; path = ../KRCardView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* KRCardView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KRCardView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		607FACE51AFB9204008FA782 /* KRCardView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KRCardView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		71CE429BAE2600ECCC26BB44 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		71CE429BAE2600ECCC26BB44 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		7E50282A0A97DFDE6A0095E9 /* Pods-KRCardView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KRCardView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KRCardView_Tests/Pods-KRCardView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9E7D03CC8FDFAA1D8E5E68CA /* Pods-KRCardView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KRCardView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-KRCardView_Example/Pods-KRCardView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A317D9B4B7AEFDE99FB3470E /* Pods-KRCardView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KRCardView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KRCardView_Example/Pods-KRCardView_Example.debug.xcconfig"; sourceTree = "<group>"; };

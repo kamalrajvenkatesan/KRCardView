@@ -1,0 +1,6 @@
+framework module KRCardView {
+  umbrella header "KRCardView-umbrella.h"
+
+  export *
+  module * { export * }
+}
