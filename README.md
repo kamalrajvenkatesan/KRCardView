@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/KRCardView.svg?style=flat)](https://cocoapods.org/pods/KRCardView)
 [![Platform](https://img.shields.io/cocoapods/p/KRCardView.svg?style=flat)](https://cocoapods.org/pods/KRCardView)
 
+![](KRCardView.gif)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
