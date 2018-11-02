@@ -22,7 +22,7 @@ pod 'KRCardView'
 
 ## Author
 
-kamalraj venkatesan, kamalrajv3@gmail.com
+kamalraj venkatesan, reach.kamalraj@outlook.com
 
 ## License
 

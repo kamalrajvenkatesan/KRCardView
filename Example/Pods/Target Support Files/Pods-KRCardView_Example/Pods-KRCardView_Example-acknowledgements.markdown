@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## KRCardView
 
-Copyright (c) 2018 kamalraj.venkatesan <kamalraj.venkatesan@gyanmatrix.com>
+Copyright (c) 2018 kamalraj.venkatesan <reach.kamalraj@outlook.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
