@@ -5,7 +5,11 @@
 [![License](https://img.shields.io/cocoapods/l/KRCardView.svg?style=flat)](https://cocoapods.org/pods/KRCardView)
 [![Platform](https://img.shields.io/cocoapods/p/KRCardView.svg?style=flat)](https://cocoapods.org/pods/KRCardView)
 
-## Preview
+## Description
+### CardView for iOS Apps.
+
+Card View will be added in bottom of ViewController. User can Tap and Pan to expand and collapse the card view.
+
 ![](KRCardView.gif)
 
 ## Example
