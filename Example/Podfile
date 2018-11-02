@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KRCardView_Example' do
+  pod 'KRCardView', :path => '../'
+
+  target 'KRCardView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
