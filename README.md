@@ -12,7 +12,7 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Step by Step instructions
+## Usage
 
 1. Create a subclass of CardViewController (Refer below image)
 ![](KRCardView-1.png)
