@@ -215,10 +215,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = MN24P8ASXA;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = MN24P8ASXA;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -473,6 +475,7 @@
 			baseConfigurationReference = A317D9B4B7AEFDE99FB3470E /* Pods-KRCardView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MN24P8ASXA;
 				INFOPLIST_FILE = KRCardView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -489,6 +492,7 @@
 			baseConfigurationReference = 9E7D03CC8FDFAA1D8E5E68CA /* Pods-KRCardView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MN24P8ASXA;
 				INFOPLIST_FILE = KRCardView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -504,6 +508,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7E50282A0A97DFDE6A0095E9 /* Pods-KRCardView_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = MN24P8ASXA;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -526,6 +531,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2397FD930254CF1590D9D8DB /* Pods-KRCardView_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = MN24P8ASXA;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

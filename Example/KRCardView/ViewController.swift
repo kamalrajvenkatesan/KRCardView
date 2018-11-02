@@ -12,7 +12,7 @@ import KRCardView
 class ViewController: UIViewController, KRCardView {
 
   var cardViewController: CardViewController!
-  var cardHandleAreaHeight: CGFloat = 65 // Height of card view when in collapsed state
+  var cardHandleAreaHeight: CGFloat = 100 // Height of card view when in collapsed state
   var cardHeight: CGFloat {
     return (self.view.bounds.height - 100)
   }

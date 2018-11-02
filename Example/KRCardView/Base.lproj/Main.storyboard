@@ -73,12 +73,33 @@
                                     <constraint firstAttribute="height" constant="30" id="nCo-Kp-Iz2"/>
                                 </constraints>
                             </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="cyo-u0-HJ1">
+                                <rect key="frame" x="0.0" y="30" width="375" height="637"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="hFE-Xl-u39">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hFE-Xl-u39" id="Hhh-rX-WAY">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="hsc-JX-YTN" id="J82-4C-evZ"/>
+                                </connections>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="NNw-Rd-aDM" firstAttribute="leading" secondItem="6I9-3h-WBA" secondAttribute="leading" id="9p9-rn-hub"/>
                             <constraint firstAttribute="trailing" secondItem="NNw-Rd-aDM" secondAttribute="trailing" id="LjB-3k-h50"/>
+                            <constraint firstItem="fHt-Ym-Fmq" firstAttribute="top" secondItem="cyo-u0-HJ1" secondAttribute="bottom" id="PXa-2a-hWW"/>
+                            <constraint firstItem="cyo-u0-HJ1" firstAttribute="leading" secondItem="6I9-3h-WBA" secondAttribute="leading" id="htU-A1-6Gm"/>
                             <constraint firstItem="NNw-Rd-aDM" firstAttribute="top" secondItem="6I9-3h-WBA" secondAttribute="top" id="qMK-15-lW9"/>
+                            <constraint firstAttribute="trailing" secondItem="cyo-u0-HJ1" secondAttribute="trailing" id="vrz-Vu-dRo"/>
+                            <constraint firstItem="cyo-u0-HJ1" firstAttribute="top" secondItem="NNw-Rd-aDM" secondAttribute="bottom" id="zSJ-Qa-NY4"/>
                         </constraints>
                     </view>
                     <connections>
