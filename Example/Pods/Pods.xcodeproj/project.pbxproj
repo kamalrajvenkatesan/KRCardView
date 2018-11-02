@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		044656D5989F89FFFA3D3723C9457924 /* KRCardView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BA5317197B573D6F975602AB308E20 /* KRCardView-dummy.m */; };
-		386D26FEFC8AB86CEAA14CE9B9F3AAF6 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22A218191E86040CB27113FF5126866 /* ReplaceMe.swift */; };
 		4AC67FDF6D154E2F7AA6671AE3D1F8AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		521840A0218C3F3900E4CCEC /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5218409F218C3F3900E4CCEC /* CardView.swift */; };
+		521840A4218C408E00E4CCEC /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521840A3218C408D00E4CCEC /* CardViewController.swift */; };
 		5E15CE9290D8D815DBC6A68315C6C105 /* Pods-KRCardView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA037A228C7017BDA040AF02DF664D15 /* Pods-KRCardView_Tests-dummy.m */; };
 		63EBE9A8153B6F24489C60481B11F582 /* Pods-KRCardView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84037BD9490C12EBA96337929EC0E838 /* Pods-KRCardView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86602F5EB554D6CB9108F60D7886ACBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
@@ -43,6 +44,8 @@
 		1FD740EA92B94562A1B5465AB7D316D8 /* Pods-KRCardView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KRCardView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2C7612DCB1D161EC0B0E5222575ECADA /* KRCardView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KRCardView.modulemap; sourceTree = "<group>"; };
 		2F525241651F923D9664DBD30511472A /* Pods-KRCardView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KRCardView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5218409F218C3F3900E4CCEC /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CardView.swift; path = KRCardView/Classes/CardView.swift; sourceTree = "<group>"; };
+		521840A3218C408D00E4CCEC /* CardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardViewController.swift; path = KRCardView/Classes/CardViewController.swift; sourceTree = "<group>"; };
 		537D0C81390985F81891836A0DF4AAE8 /* Pods-KRCardView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KRCardView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5F131DA078E30284E45B7D172F2E8690 /* Pods-KRCardView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KRCardView_Tests.modulemap"; sourceTree = "<group>"; };
@@ -52,26 +55,25 @@
 		6D2F88FD406E7A4C42B683E39FAADA89 /* KRCardView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRCardView-umbrella.h"; sourceTree = "<group>"; };
 		709D4181B80D5FB3C7AAEEA6D63CD14E /* Pods-KRCardView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KRCardView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		74D4180DAD2CB40C793AFA0C449FDD76 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		778F1D82352F9F597E59D08C2CBBDB67 /* KRCardView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = KRCardView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		778F1D82352F9F597E59D08C2CBBDB67 /* KRCardView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = KRCardView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		84037BD9490C12EBA96337929EC0E838 /* Pods-KRCardView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KRCardView_Example-umbrella.h"; sourceTree = "<group>"; };
 		858AB471BE1B5C8529BB5B352140F0A4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		952605C55D05FD8467062BA4D76FC26A /* Pods-KRCardView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KRCardView_Example-resources.sh"; sourceTree = "<group>"; };
 		9749C146923F6B7A6E6AD34ED3C31494 /* Pods-KRCardView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KRCardView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		98AAC4D5888B7B9FB2C8CE817DF5FFC4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A2C4E8849AA145AB0B1E8B47F939FA2E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A2C4E8849AA145AB0B1E8B47F939FA2E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B4E165048CD8496191F958B6D0F87D7A /* Pods-KRCardView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KRCardView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BA037A228C7017BDA040AF02DF664D15 /* Pods-KRCardView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KRCardView_Tests-dummy.m"; sourceTree = "<group>"; };
-		BC4C0A29BC421C0A9392C6753B91ABFA /* Pods_KRCardView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KRCardView_Tests.framework; path = "Pods-KRCardView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C4A34CD36CDF9115F52D53AAEAA7D5FD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BC4C0A29BC421C0A9392C6753B91ABFA /* Pods_KRCardView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KRCardView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4A34CD36CDF9115F52D53AAEAA7D5FD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D82885A03F3F3F88E3340889377018BD /* KRCardView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KRCardView.xcconfig; sourceTree = "<group>"; };
 		D88B69496C7496679926EFCC9345B9E9 /* Pods-KRCardView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KRCardView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		E22A218191E86040CB27113FF5126866 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = KRCardView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		E34124871935C72EA58E2E0241734AFF /* KRCardView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KRCardView.framework; path = KRCardView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E34124871935C72EA58E2E0241734AFF /* KRCardView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KRCardView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5BA5317197B573D6F975602AB308E20 /* KRCardView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KRCardView-dummy.m"; sourceTree = "<group>"; };
 		E6B9D5EE7747443D27052697A7B9A936 /* Pods-KRCardView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KRCardView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		EE580203A95F904E19295E7FB520862D /* Pods-KRCardView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KRCardView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F3FEB3896EED5B18DCC30337C5D0840E /* Pods_KRCardView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KRCardView_Example.framework; path = "Pods-KRCardView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3FEB3896EED5B18DCC30337C5D0840E /* Pods_KRCardView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KRCardView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,7 +185,8 @@
 		CAE6C5F8B7B8DB9768BFD67E25077886 /* KRCardView */ = {
 			isa = PBXGroup;
 			children = (
-				E22A218191E86040CB27113FF5126866 /* ReplaceMe.swift */,
+				521840A3218C408D00E4CCEC /* CardViewController.swift */,
+				5218409F218C3F3900E4CCEC /* CardView.swift */,
 				5F86F7720C14436480475097F2D9AA45 /* Pod */,
 				C172BC6C4A74D19854B39E19F99E4261 /* Support Files */,
 			);
@@ -360,7 +363,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				044656D5989F89FFFA3D3723C9457924 /* KRCardView-dummy.m in Sources */,
-				386D26FEFC8AB86CEAA14CE9B9F3AAF6 /* ReplaceMe.swift in Sources */,
+				521840A0218C3F3900E4CCEC /* CardView.swift in Sources */,
+				521840A4218C408E00E4CCEC /* CardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,7 +402,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/KRCardView/KRCardView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/KRCardView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/KRCardView/KRCardView.modulemap";
 				PRODUCT_MODULE_NAME = KRCardView;
@@ -656,7 +660,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/KRCardView/KRCardView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/KRCardView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/KRCardView/KRCardView.modulemap";
 				PRODUCT_MODULE_NAME = KRCardView;
