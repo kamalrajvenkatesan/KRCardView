@@ -37,6 +37,58 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--Bottom View Controller-->
+        <scene sceneID="sZQ-MA-wxl">
+            <objects>
+                <viewController storyboardIdentifier="BottomViewController" id="hsc-JX-YTN" customClass="BottomViewController" customModule="KRCardView_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CIY-Ht-bOF"/>
+                        <viewControllerLayoutGuide type="bottom" id="fHt-Ym-Fmq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6I9-3h-WBA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NNw-Rd-aDM">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qhu-fO-AYT">
+                                        <rect key="frame" x="157.5" y="10" width="60" height="10"/>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="10" id="Hkh-4M-Jnn"/>
+                                            <constraint firstAttribute="width" constant="60" id="bOg-JU-yTa"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="Qhu-fO-AYT" firstAttribute="centerY" secondItem="NNw-Rd-aDM" secondAttribute="centerY" id="O3T-0z-KSI"/>
+                                    <constraint firstItem="Qhu-fO-AYT" firstAttribute="centerX" secondItem="NNw-Rd-aDM" secondAttribute="centerX" id="aCc-7G-daE"/>
+                                    <constraint firstAttribute="height" constant="30" id="nCo-Kp-Iz2"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="NNw-Rd-aDM" firstAttribute="leading" secondItem="6I9-3h-WBA" secondAttribute="leading" id="9p9-rn-hub"/>
+                            <constraint firstAttribute="trailing" secondItem="NNw-Rd-aDM" secondAttribute="trailing" id="LjB-3k-h50"/>
+                            <constraint firstItem="NNw-Rd-aDM" firstAttribute="top" secondItem="6I9-3h-WBA" secondAttribute="top" id="qMK-15-lW9"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="handleArea" destination="NNw-Rd-aDM" id="4HV-Ic-qK0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="poo-6k-8He" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1385" y="27"/>
+        </scene>
     </scenes>
     <resources>
         <image name="RRE" width="2250" height="1375"/>

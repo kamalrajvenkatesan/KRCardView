@@ -7,12 +7,24 @@
 //
 
 import UIKit
+import KRCardView
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, KRCardView {
+
+  var cardViewController: CardViewController!
+  var cardHandleAreaHeight: CGFloat = 65 // Height of card view when in collapsed state
+  var cardHeight: CGFloat {
+    return (self.view.bounds.height - 100)
+  }
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+      cardViewController = self.storyboard?.instantiateViewController(withIdentifier: "BottomViewController") as! BottomViewController
+
+      self.addKRCardView() // This method will render card view in this view controller.
+
     }
 
     override func didReceiveMemoryWarning() {

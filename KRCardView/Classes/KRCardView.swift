@@ -12,7 +12,7 @@ public enum CardState: Int {
   case expanded, collapsed
 }
 
-public protocol BottomView {
+public protocol KRCardView {
   var cardViewController: CardViewController! { get set }
 
   var cardHandleAreaHeight: CGFloat { get }
@@ -20,9 +20,9 @@ public protocol BottomView {
 
 }
 
-extension BottomView where Self: UIViewController {
+extension KRCardView where Self: UIViewController {
 
-  public func addView() {
+  public func addKRCardView() {
 
     // Visual Effect View
     cardViewController.visualEffectView.frame = self.view.frame
@@ -52,7 +52,7 @@ fileprivate extension UIViewController {
 
 
   var nextState: CardState {
-    let bottomView = self as! BottomView
+    let bottomView = self as! KRCardView
     return bottomView.cardViewController.cardVisible ? .collapsed : .expanded
   }
 
@@ -67,7 +67,7 @@ fileprivate extension UIViewController {
 
   @objc func handlePanGesture(recognizer: UIPanGestureRecognizer) {
 
-    guard let bottomView = self as? BottomView else {
+    guard let bottomView = self as? KRCardView else {
       return
     }
 
@@ -92,7 +92,7 @@ fileprivate extension UIViewController {
 
   func animationTransitionIfNeeded(state: CardState, duration: TimeInterval) {
 
-    guard var bottomView = self as? BottomView else {
+    guard var bottomView = self as? KRCardView else {
       return
     }
 
@@ -156,7 +156,7 @@ fileprivate extension UIViewController {
 
   func startInteractiveTransition(state: CardState, duration: TimeInterval) {
 
-    guard var bottomView = self as? BottomView else {
+    guard var bottomView = self as? KRCardView else {
       return
     }
 
@@ -173,7 +173,7 @@ fileprivate extension UIViewController {
 
   func updateInteractiveTransition(fractionCompleted: CGFloat) {
 
-    guard var bottomView = self as? BottomView else {
+    guard var bottomView = self as? KRCardView else {
       return
     }
 
@@ -185,7 +185,7 @@ fileprivate extension UIViewController {
 
   func continueInteractiveTransition() {
 
-    guard var bottomView = self as? BottomView else {
+    guard var bottomView = self as? KRCardView else {
       return
     }
 

@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class CardViewController: UIViewController {
+open class CardViewController: UIViewController {
 
  @IBOutlet weak var handleArea: UIView!
 
@@ -18,7 +18,7 @@ public class CardViewController: UIViewController {
   var runningAnimations = [UIViewPropertyAnimator]()
   var animationProgressWhenInterrupted:CGFloat = 0
   
-  override public func viewDidLoad() {
+  override open func viewDidLoad() {
         super.viewDidLoad()
 
     }
