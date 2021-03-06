@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5276D18325F2A343009D0349 /* KRCardView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5276D18125F2A343009D0349 /* KRCardView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5276D18C25F2A37A009D0349 /* KRCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5276D18A25F2A37A009D0349 /* KRCardView.swift */; };
+		5276D18D25F2A37A009D0349 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5276D18B25F2A37A009D0349 /* CardViewController.swift */; };
+		5276D19625F2A42A009D0349 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5276D19525F2A42A009D0349 /* AppDelegate.swift */; };
+		5276D19825F2A42A009D0349 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5276D19725F2A42A009D0349 /* SceneDelegate.swift */; };
+		5276D19A25F2A42A009D0349 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5276D19925F2A42A009D0349 /* ViewController.swift */; };
+		5276D19D25F2A42A009D0349 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5276D19B25F2A42A009D0349 /* Main.storyboard */; };
+		5276D19F25F2A42B009D0349 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5276D19E25F2A42B009D0349 /* Assets.xcassets */; };
+		5276D1A225F2A42B009D0349 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5276D1A025F2A42B009D0349 /* LaunchScreen.storyboard */; };
+		5276D1AA25F2A457009D0349 /* BottomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5276D1A925F2A457009D0349 /* BottomViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5276D17E25F2A343009D0349 /* KRCardView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KRCardView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5276D18125F2A343009D0349 /* KRCardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRCardView.h; sourceTree = "<group>"; };
+		5276D18225F2A343009D0349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5276D18A25F2A37A009D0349 /* KRCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRCardView.swift; sourceTree = "<group>"; };
+		5276D18B25F2A37A009D0349 /* CardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		5276D19325F2A42A009D0349 /* KRCardViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KRCardViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5276D19525F2A42A009D0349 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5276D19725F2A42A009D0349 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5276D19925F2A42A009D0349 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5276D19C25F2A42A009D0349 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5276D19E25F2A42B009D0349 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5276D1A125F2A42B009D0349 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5276D1A325F2A42B009D0349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5276D1A925F2A457009D0349 /* BottomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5276D17B25F2A343009D0349 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5276D19025F2A42A009D0349 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5276D17425F2A343009D0349 = {
+			isa = PBXGroup;
+			children = (
+				5276D18025F2A343009D0349 /* KRCardView */,
+				5276D19425F2A42A009D0349 /* KRCardViewExample */,
+				5276D17F25F2A343009D0349 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5276D17F25F2A343009D0349 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5276D17E25F2A343009D0349 /* KRCardView.framework */,
+				5276D19325F2A42A009D0349 /* KRCardViewExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5276D18025F2A343009D0349 /* KRCardView */ = {
+			isa = PBXGroup;
+			children = (
+				5276D18B25F2A37A009D0349 /* CardViewController.swift */,
+				5276D18A25F2A37A009D0349 /* KRCardView.swift */,
+				5276D18125F2A343009D0349 /* KRCardView.h */,
+				5276D18225F2A343009D0349 /* Info.plist */,
+			);
+			path = KRCardView;
+			sourceTree = "<group>";
+		};
+		5276D19425F2A42A009D0349 /* KRCardViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				5276D19525F2A42A009D0349 /* AppDelegate.swift */,
+				5276D19725F2A42A009D0349 /* SceneDelegate.swift */,
+				5276D19925F2A42A009D0349 /* ViewController.swift */,
+				5276D19B25F2A42A009D0349 /* Main.storyboard */,
+				5276D19E25F2A42B009D0349 /* Assets.xcassets */,
+				5276D1A025F2A42B009D0349 /* LaunchScreen.storyboard */,
+				5276D1A325F2A42B009D0349 /* Info.plist */,
+				5276D1A925F2A457009D0349 /* BottomViewController.swift */,
+			);
+			path = KRCardViewExample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5276D17925F2A343009D0349 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5276D18325F2A343009D0349 /* KRCardView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5276D17D25F2A343009D0349 /* KRCardView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5276D18625F2A343009D0349 /* Build configuration list for PBXNativeTarget "KRCardView" */;
+			buildPhases = (
+				5276D17925F2A343009D0349 /* Headers */,
+				5276D17A25F2A343009D0349 /* Sources */,
+				5276D17B25F2A343009D0349 /* Frameworks */,
+				5276D17C25F2A343009D0349 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KRCardView;
+			productName = KRCardView;
+			productReference = 5276D17E25F2A343009D0349 /* KRCardView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5276D19225F2A42A009D0349 /* KRCardViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5276D1A425F2A42B009D0349 /* Build configuration list for PBXNativeTarget "KRCardViewExample" */;
+			buildPhases = (
+				5276D18F25F2A42A009D0349 /* Sources */,
+				5276D19025F2A42A009D0349 /* Frameworks */,
+				5276D19125F2A42A009D0349 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KRCardViewExample;
+			productName = KRCardViewExample;
+			productReference = 5276D19325F2A42A009D0349 /* KRCardViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5276D17525F2A343009D0349 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					5276D17D25F2A343009D0349 = {
+						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
+					};
+					5276D19225F2A42A009D0349 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 5276D17825F2A343009D0349 /* Build configuration list for PBXProject "KRCardView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5276D17425F2A343009D0349;
+			productRefGroup = 5276D17F25F2A343009D0349 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5276D17D25F2A343009D0349 /* KRCardView */,
+				5276D19225F2A42A009D0349 /* KRCardViewExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5276D17C25F2A343009D0349 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5276D19125F2A42A009D0349 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5276D1A225F2A42B009D0349 /* LaunchScreen.storyboard in Resources */,
+				5276D19F25F2A42B009D0349 /* Assets.xcassets in Resources */,
+				5276D19D25F2A42A009D0349 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5276D17A25F2A343009D0349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5276D18D25F2A37A009D0349 /* CardViewController.swift in Sources */,
+				5276D18C25F2A37A009D0349 /* KRCardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5276D18F25F2A42A009D0349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5276D19A25F2A42A009D0349 /* ViewController.swift in Sources */,
+				5276D1AA25F2A457009D0349 /* BottomViewController.swift in Sources */,
+				5276D19625F2A42A009D0349 /* AppDelegate.swift in Sources */,
+				5276D19825F2A42A009D0349 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5276D19B25F2A42A009D0349 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5276D19C25F2A42A009D0349 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5276D1A025F2A42B009D0349 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5276D1A125F2A42B009D0349 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5276D18425F2A343009D0349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5276D18525F2A343009D0349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5276D18725F2A343009D0349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = THBM92J466;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = KRCardView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kamal.KRCardView.KRCardView;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5276D18825F2A343009D0349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = THBM92J466;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = KRCardView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kamal.KRCardView.KRCardView;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5276D1A525F2A42B009D0349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = THBM92J466;
+				INFOPLIST_FILE = KRCardViewExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kamal.KRCardView.KRCardViewExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5276D1A625F2A42B009D0349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = THBM92J466;
+				INFOPLIST_FILE = KRCardViewExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kamal.KRCardView.KRCardViewExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5276D17825F2A343009D0349 /* Build configuration list for PBXProject "KRCardView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5276D18425F2A343009D0349 /* Debug */,
+				5276D18525F2A343009D0349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5276D18625F2A343009D0349 /* Build configuration list for PBXNativeTarget "KRCardView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5276D18725F2A343009D0349 /* Debug */,
+				5276D18825F2A343009D0349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5276D1A425F2A42B009D0349 /* Build configuration list for PBXNativeTarget "KRCardViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5276D1A525F2A42B009D0349 /* Debug */,
+				5276D1A625F2A42B009D0349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5276D17525F2A343009D0349 /* Project object */;
+}

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KRCardView'
-  s.version          = '0.1.0'
+  s.version          = '2.0.0'
   s.summary          = 'Card view on bottom of view controller that can be access to view the content on card view'
 
 # This description is used to generate tags and improve search results.
@@ -29,7 +29,7 @@ KRCardView is a view that allows to make a CardView / Bottom View on any UIViewC
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
-  s.swift_version = '4.0'
+  s.swift_version = '5.0'
 
   s.source_files = 'KRCardView/Classes/**/*'
   
