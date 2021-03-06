@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KRCardView'
-  s.version          = '0.1.0'
+  s.version          = '2.0.0'
   s.summary          = 'Card view on bottom of view controller that can be access to view the content on card view'
 
 # This description is used to generate tags and improve search results.
