@@ -75,8 +75,7 @@
 		5276D18025F2A343009D0349 /* KRCardView */ = {
 			isa = PBXGroup;
 			children = (
-				5276D18B25F2A37A009D0349 /* CardViewController.swift */,
-				5276D18A25F2A37A009D0349 /* KRCardView.swift */,
+				5276D1D725F3AC3A009D0349 /* Classes */,
 				5276D18125F2A343009D0349 /* KRCardView.h */,
 				5276D18225F2A343009D0349 /* Info.plist */,
 			);
@@ -96,6 +95,15 @@
 				5276D1A925F2A457009D0349 /* BottomViewController.swift */,
 			);
 			path = KRCardViewExample;
+			sourceTree = "<group>";
+		};
+		5276D1D725F3AC3A009D0349 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5276D18B25F2A37A009D0349 /* CardViewController.swift */,
+				5276D18A25F2A37A009D0349 /* KRCardView.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -428,6 +436,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = THBM92J466;
 				INFOPLIST_FILE = KRCardViewExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -447,6 +456,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = THBM92J466;
 				INFOPLIST_FILE = KRCardViewExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
