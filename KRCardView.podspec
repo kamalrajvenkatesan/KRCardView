@@ -28,10 +28,10 @@ KRCardView is a view that allows to make a CardView / Bottom View on any UIViewC
   s.source           = { :git => 'https://github.com/kamalrajvenkatesan/KRCardView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '11.0'
   s.swift_version = '5.0'
 
-  s.source_files = 'KRCardView/Classes/**/*'
+  s.source_files = 'KRCardView/**/*.{h,m,swift}'
   
   # s.resource_bundles = {
   #   'KRCardView' => ['KRCardView/Assets/*.png']
